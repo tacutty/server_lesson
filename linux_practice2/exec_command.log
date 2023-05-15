@@ -1,0 +1,119 @@
+    1  ls
+    2  cd /root
+    3  git version
+    4  yum update -y && yum -y install git
+    5  git version
+    6  mkdir server_lesson && cd server_lesson
+    7  git version
+    8  git init
+    9  touch first.txt
+   10  ls
+   11  mkdir -p linux_practice1/public
+   12  git pull origin master
+   13  git pull
+   14  git version
+   15  git status
+   16  git pull origin master
+   17  git branch
+   18  git log
+   19  git status
+   20  git remote add origin https://github.com/tacutty/server_lesson
+   21  git status
+   22  git remote -v
+   23  git pull origin master
+   24  ls
+   25  cd linux_practice1/
+   26  ls
+   27  cd public/
+   28  ls
+   29  cd ../
+   30  cd ../
+   31  git pull
+   32  git checkout master
+   33  git branch
+   34  git status
+   35  git pull
+   36  git pull origin master
+   37  git pull origin master
+   38  ls
+   39  git remote -v
+   40  cd linux_practice1/
+   41  cd public/
+   42  touch index.php
+   43* c index.php index_bk.php
+   44  cp index.php index_bk.php
+   45  ls
+   46  cd ../
+   47  cp -r public tmp
+   48  ls
+   49  git status
+   50  cd ../
+   51  cd ../
+   52  cd server_lesson
+   53  git status
+   54  git add .
+   55  :set encoding?
+   56  set enc?
+   57  set encoding?
+   58  set encoding=utf-8
+   59  git commit -m'練習問題1~3'
+   60   git config --global user.email "tatsu11221122@gmailcom"
+   61  git config --global user.name "tacutty"
+   62  git commit -m'練習問題1~3'
+   63  touch README.md
+   64  ls
+   65  vi README.md
+   66  git add .
+   67  git status
+   68  git commit -m'README.kinyuu
+’''
+;
+   69  git commit -m'README記入'
+   70  git status
+   71  mkdir -r linux_practice2/documents
+   72  mkdir -p linux_practice2/documents
+   73  cd linux_practice2/documents/
+   74  touch gizumo{01..50}.md
+   75  ls
+   76  git add .
+   77  git commit -m'gizumo.md50ファイル作成'
+   78  cd ./
+   79  cd ..
+   80  mkdir trash
+   81  ls
+   82  mv documents/gizumo{20..40}.md documents/trash
+   83  mv documents/gizumo{20..40}.md trash
+   84  ls
+   85  ls trash
+   86  touch .gitignore
+   87  ls
+   88  ls -l
+   89  ls -a
+   90  vi .gitignore
+   91  ls
+   92  cat .ignore
+   93  git status
+   94  cd ../
+   95  git status
+   96  cd linux_practice2
+   97  ls
+   98  ls -a
+   99  vi .gitignore 
+  100  git add .
+  101  cd ../
+  102  cd linux_practice2
+  103  git add .gitignore
+  104  git status
+  105  git status
+  106  git status
+  107  cd ../
+  108  git status
+  109  cd linux_practice2
+  110  touch exec_command.log
+  111  ls
+  112  rm -r exec_command.log 
+  113  ls
+  114  history 300
+  115  touch exec_command.log
+  116  ls
+  117  history 300 > exec_command.log 
